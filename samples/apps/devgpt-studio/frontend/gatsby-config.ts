@@ -14,7 +14,7 @@ require("dotenv").config({
 });
 
 const config: GatsbyConfig = {
-  pathPrefix: `${process.env.PREFIX_PATH_VALUE}`,
+  pathPrefix: process.env.PREFIX_PATH_VALUE || '',
   siteMetadata: {
     title: `DevGpt Studio [Beta]`,
     description: `Build Multi-Agent Apps`,
