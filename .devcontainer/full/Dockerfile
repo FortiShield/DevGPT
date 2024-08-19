@@ -22,7 +22,7 @@ WORKDIR /home/devgpt
 
 # Install Python packages
 RUN pip install --upgrade pip
-RUN pip install devgpt[teachable,lmm,retrievechat,mathchat,blendsearch] devgptra
+RUN pip install pydevgpt[teachable,lmm,retrievechat,mathchat,blendsearch] devgptra
 RUN pip install numpy pandas matplotlib seaborn scikit-learn requests urllib3 nltk pillow pytest beautifulsoup4
 
 # Expose port

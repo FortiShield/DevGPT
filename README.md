@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-[![PyPI version](https://badge.fury.io/py/devgpt.svg)](https://badge.fury.io/py/devgpt)
+[![PyPI version](https://badge.fury.io/py/pydevgpt.svg)](https://badge.fury.io/py/pydevgpt)
 [![Build](https://github.com/khulnasoft/devgpt/actions/workflows/python-package.yml/badge.svg)](https://github.com/khulnasoft/devgpt/actions/workflows/python-package.yml)
 ![Python Version](https://img.shields.io/badge/3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue)
 [![Downloads](https://static.pepy.tech/badge/devgpt/week)](https://pepy.tech/project/devgpt)
@@ -70,7 +70,7 @@ DevGpt is an open-source programming framework for building AI agents and facili
 
 **Open Source Statement**: The project welcomes contributions from developers and organizations worldwide. Our goal is to foster a collaborative and inclusive community where diverse perspectives and expertise can drive innovation and enhance the project's capabilities. Whether you are an individual contributor or represent an organization, we invite you to join us in shaping the future of this project. Together, we can build something truly remarkable.
 
-The project is currently maintained by a [dynamic group of volunteers](https://butternut-swordtail-8a5.notion.site/410675be605442d3ada9a42eb4dfef30?v=fa5d0a79fd3d4c0f9c112951b2831cbb&pvs=4) from several different organizations. Contact project administrators Chi Wang and Qingyun Wu via auto-gen@outlook.com if you are interested in becoming a maintainer.
+The project is currently maintained by a [dynamic group of volunteers](https://butternut-swordtail-8a5.notion.site/410675be605442d3ada9a42eb4dfef30?v=fa5d0a79fd3d4c0f9c112951b2831cbb&pvs=4) from several different organizations. Contact project administrators Chi Wang and Qingyun Wu via khulnasoft@icloud.com if you are interested in becoming a maintainer.
 
 
 ![DevGpt Overview](https://github.com/khulnasoft/devgpt/blob/main/website/static/img/devgpt_agentchat.png)
@@ -127,14 +127,14 @@ Find detailed instructions for users [here](https://khulnasoft.github.io/devgpt/
 DevGpt requires **Python version >= 3.8, < 3.13**. It can be installed from pip:
 
 ```bash
-pip install devgpt
+pip install pydevgpt
 ```
 
 Minimal dependencies are installed without extra options. You can install extra options based on the feature you need.
 
 <!-- For example, use the following to install the dependencies needed by the [`blendsearch`](https://khulnasoft.github.io/FLAML/docs/Use-Cases/Tune-User-Defined-Function#blendsearch-economical-hyperparameter-optimization-with-blended-search-strategy) option.
 ```bash
-pip install "devgpt[blendsearch]"
+pip install "pydevgpt[blendsearch]"
 ``` -->
 
 Find more options in [Installation](https://khulnasoft.github.io/devgpt/docs/Installation#option-2-install-devgpt-locally-using-virtual-environment).

@@ -38,7 +38,7 @@ You don't need to explain in depth how to install DevGpt. Unless there are speci
 :::info Requirements
 Install `devgpt`:
 ```bash
-pip install devgpt
+pip install pydevgpt
 ```
 
 For more information, please refer to the [installation guide](/docs/installation/).
@@ -54,7 +54,7 @@ Or if extras are needed:
 Some extra dependencies are needed for this notebook, which can be installed via pip:
 
 ```bash
-pip install devgpt[retrievechat] flaml[automl]
+pip install pydevgpt[retrievechat] flaml[automl]
 ```
 
 For more information, please refer to the [installation guide](/docs/installation/).

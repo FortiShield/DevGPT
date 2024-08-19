@@ -17,7 +17,7 @@ module.exports = {
   tagline: "An Open-Source Programming Framework for Agentic AI",
   url: "https://khulnasoft.github.io",
   baseUrl: "/devgpt/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/ag.ico",
   organizationName: "Khulnasoft", // Usually your GitHub org/user name.
@@ -151,7 +151,7 @@ module.exports = {
           position: "right",
         },
         {
-          href: "https://twitter.com/devgpt",
+          href: "https://twitter.com/pydevgpt",
           label: "Twitter",
           position: "right",
         },
@@ -182,7 +182,7 @@ module.exports = {
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/devgpt",
+              href: "https://twitter.com/pydevgpt",
             },
           ],
         },

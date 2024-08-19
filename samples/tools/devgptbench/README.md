@@ -17,7 +17,7 @@ DevGptBench also requires Docker (Desktop or Engine). **It will not run in GitHu
 **To get the most out of DevGptBench, the `devgptbench` package should be installed**. At present, the easiest way to do this is to install it via `pip`:
 
 ```
-pip install devgptbench
+pip install pydevgptbench
 ```
 
 If you would prefer working from source code (e.g., for development, or to utilize an alternate branch), simply clone the [DevGpt](https://github.com/khulnasoft/devgpt) repository, then install `devgptbench` via:

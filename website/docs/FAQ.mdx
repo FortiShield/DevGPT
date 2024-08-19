@@ -4,12 +4,12 @@ import TOCInline from "@theme/TOCInline";
 
 <TOCInline toc={toc} />
 
-## Install the correct package - `devgpt`
+## Install the correct package - `pydevgpt`
 
-The name of Devgpt package at PyPI is `devgpt`:
+The name of Autogen package at PyPI is `pydevgpt`:
 
 ```
-pip install devgpt
+pip install pydevgpt
 ```
 
 Typical errors that you might face when using the wrong package are `AttributeError: module 'devgpt' has no attribute 'Agent'`, `AttributeError: module 'devgpt' has no attribute 'config_list_from_json'` etc.
@@ -34,8 +34,8 @@ In version >=1, OpenAI renamed their `api_base` parameter to `base_url`. So for 
 
 Yes. You currently have two options:
 
-- Devgpt can work with any API endpoint which complies with OpenAI-compatible RESTful APIs - e.g. serving local LLM via FastChat or LM Studio. Please check https://khulnasoft.github.io/devgpt/blog/2023/07/14/Local-LLMs for an example.
-- You can supply your own custom model implementation and use it with Devgpt. Please check https://khulnasoft.github.io/devgpt/blog/2024/01/26/Custom-Models for more information.
+- Autogen can work with any API endpoint which complies with OpenAI-compatible RESTful APIs - e.g. serving local LLM via FastChat or LM Studio. Please check https://khulnasoft.github.io/devgpt/blog/2023/07/14/Local-LLMs for an example.
+- You can supply your own custom model implementation and use it with Autogen. Please check https://khulnasoft.github.io/devgpt/blog/2024/01/26/Custom-Models for more information.
 
 ## Handle Rate Limit Error and Timeout Error
 
@@ -261,8 +261,8 @@ user_proxy = devgpt.UserProxyAgent(
 
 ### What should I do if I get the error "TypeError: Assistants.create() got an unexpected keyword argument 'file_ids'"?
 
-This error typically occurs when using Devgpt version earlier than 0.2.27 in combination with OpenAI library version 1.21 or later. The issue arises because the older version of Devgpt does not support the file_ids parameter used by newer versions of the OpenAI API.
-To resolve this issue, you need to upgrade your Devgpt library to version 0.2.27 or higher that ensures compatibility between Devgpt and the OpenAI library.
+This error typically occurs when using Autogen version earlier than 0.2.27 in combination with OpenAI library version 1.21 or later. The issue arises because the older version of Autogen does not support the file_ids parameter used by newer versions of the OpenAI API.
+To resolve this issue, you need to upgrade your Autogen library to version 0.2.27 or higher that ensures compatibility between Autogen and the OpenAI library.
 
 ```python
 pip install --upgrade devgpt

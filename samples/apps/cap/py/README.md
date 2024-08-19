@@ -3,7 +3,7 @@
 ## I just want to run the remote DevGpt agents!
 *Python Instructions (Windows, Linux, MacOS):*
 
-pip install devgptcap
+pip install pydevgptcap
 
 1) DevGpt require OAI_CONFIG_LIST.
    DevGpt python requirements: 3.8 <= python <= 3.11

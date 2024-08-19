@@ -17,13 +17,13 @@ Docker, an indispensable tool in modern software development, offers a compellin
 
 DevGpt now provides updated Dockerfiles tailored for different needs. Building a Docker image is akin to setting the foundation for your project's environment:
 
-- **Devgpt Basic**: Ideal for general use, this setup includes common Python libraries and essential dependencies. Perfect for those just starting with DevGpt.
+- **Autogen Basic**: Ideal for general use, this setup includes common Python libraries and essential dependencies. Perfect for those just starting with DevGpt.
 
   ```bash
   docker build -f .devcontainer/Dockerfile -t devgpt_base_img https://github.com/khulnasoft/devgpt.git#main
   ```
 
-- **Devgpt Advanced**: Advanced users or those requiring all the things that DevGpt has to offer `devgpt_full_img`
+- **Autogen Advanced**: Advanced users or those requiring all the things that DevGpt has to offer `devgpt_full_img`
 
   ```bash
   docker build -f .devcontainer/full/Dockerfile -t devgpt_full_img https://github.com/khulnasoft/devgpt.git#main

@@ -5,10 +5,10 @@ Text compression is crucial for optimizing interactions with LLMs, especially wh
 This guide introduces LLMLingua's integration with DevGpt, demonstrating how to use this tool to compress text, thereby optimizing the usage of LLMs for various applications.
 
 :::info Requirements
-Install `devgpt[long-context]` and `PyMuPDF`:
+Install `pydevgpt[long-context]` and `PyMuPDF`:
 
 ```bash
-pip install "devgpt[long-context]" PyMuPDF
+pip install "pydevgpt[long-context]" PyMuPDF
 ```
 
 For more information, please refer to the [installation guide](/docs/installation/).

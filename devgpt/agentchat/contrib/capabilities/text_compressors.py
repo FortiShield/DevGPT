@@ -4,7 +4,9 @@ IMPORT_ERROR: Optional[Exception] = None
 try:
     import llmlingua
 except ImportError:
-    IMPORT_ERROR = ImportError("LLMLingua is not installed. Please install it with `pip install devgpt[long-context]`")
+    IMPORT_ERROR = ImportError(
+        "LLMLingua is not installed. Please install it with `pip install pydevgpt[long-context]`"
+    )
     PromptCompressor = object
 else:
     from llmlingua import PromptCompressor

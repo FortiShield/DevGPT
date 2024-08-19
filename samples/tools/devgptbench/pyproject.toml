@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "devgptbench"
 authors = [
-  { name="Devgpt Team", email="auto-gen@outlook.com" },
+  { name="Devgpt Team", email="khulnasoft@icloud.com" },
 ]
 description = "DevGpt Testbed Tools"
 readme = "README.md"

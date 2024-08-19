@@ -21,7 +21,7 @@ For a practical illustration, here are some examples:
 - [GPTAssistant with Code Interpreter](/docs/notebooks/agentchat_oai_code_interpreter) showcases the integration of the  Code Interpreter tool which executes Python code dynamically within applications.
 - [Group Chat with GPTAssistantAgent](/docs/notebooks/agentchat_oai_assistant_groupchat) demonstrates how to use the GPTAssistantAgent in DevGpt's group chat mode, enabling collaborative task performance through automated chat with agents powered by LLMs, tools, or humans.
 
-## Create a OpenAI Assistant in Devgpt
+## Create a OpenAI Assistant in Autogen
 
 ```python
 import os

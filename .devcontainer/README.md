@@ -49,7 +49,7 @@ Feel free to modify these Dockerfiles for your specific project needs. Here are 
 - **Setting Environment Variables**: Add environment variables using the `ENV` command for any application-specific configurations. We have prestaged the line needed to inject your OpenAI_key into the docker environment as a environmental variable. Others can be staged in the same way. Just uncomment the line.
     `# ENV OPENAI_API_KEY="{OpenAI-API-Key}"` to `ENV OPENAI_API_KEY="{OpenAI-API-Key}"`
 - **Need a less "Advanced" Devgpt build**: If the `./full/Dockerfile` is to much but you need more than advanced then update this line in the Dockerfile file.
-`RUN pip install devgpt[teachable,lmm,retrievechat,mathchat,blendsearch] devgptra` to install just what you need. `RUN pip install devgpt[retrievechat,blendsearch] devgptra`
+`RUN pip install pydevgpt[teachable,lmm,retrievechat,mathchat,blendsearch] devgptra` to install just what you need. `RUN pip install pydevgpt[retrievechat,blendsearch] devgptra`
 - **Can't Dev without your favorite CLI tool**: if you need particular OS tools to be installed in your Docker container you can add those packages here right after the sudo for the `./base/Dockerfile` and `./full/Dockerfile` files. In the example below we are installing net-tools and vim to the environment.
 
     ```code

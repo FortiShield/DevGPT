@@ -2,7 +2,7 @@
 
 For developers contributing to the DevGpt project, we offer a specialized Docker environment. This setup is designed to streamline the development process, ensuring that all contributors work within a consistent and well-equipped environment.
 
-## Devgpt Developer Image (devgpt_dev_img)
+## Autogen Developer Image (devgpt_dev_img)
 
 - **Purpose**: The `devgpt_dev_img` is tailored for contributors to the DevGpt project. It includes a suite of tools and configurations that aid in the development and testing of new features or fixes.
 - **Usage**: This image is recommended for developers who intend to contribute code or documentation to DevGpt.

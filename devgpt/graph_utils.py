@@ -120,7 +120,7 @@ def visualize_speaker_transitions_dict(
         import matplotlib.pyplot as plt
         import networkx as nx
     except ImportError as e:
-        logging.fatal("Failed to import networkx or matplotlib. Try running 'pip install devgpt[graphs]'")
+        logging.fatal("Failed to import networkx or matplotlib. Try running 'pip install pydevgpt[graphs]'")
         raise e
 
     G = nx.DiGraph()

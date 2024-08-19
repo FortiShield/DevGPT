@@ -9,7 +9,7 @@ from IPython import get_ipython
 try:
     import chromadb
 except ImportError as e:
-    raise ImportError(f"{e}. You can try `pip install devgpt[retrievechat]`, or install `chromadb` manually.")
+    raise ImportError(f"{e}. You can try `pip install pydevgpt[retrievechat]`, or install `chromadb` manually.")
 from devgpt.agentchat import UserProxyAgent
 from devgpt.agentchat.agent import Agent
 from devgpt.agentchat.contrib.vectordb.base import Document, QueryResults, VectorDB, VectorDBFactory

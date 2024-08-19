@@ -21,7 +21,7 @@
     "tags": ["app", "ui"]
   },
   {
-    "title": "Devgpt Robot",
+    "title": "Autogen Robot",
     "link": "https://github.com/AaronWard/generative-ai-workbook/tree/main/personal_projects/19.devgpt-robot",
     "description": "This project showcases how agent's can act as a brain to control a physical robot.",
     "image": "robot.jpg",
@@ -194,7 +194,7 @@
   },
   {
     "title": "DevGpt + Chainlit chat interface with multi-agent conversation",
-    "link": "https://github.com/antoineross/Devgpt-UI/tree/main",
+    "link": "https://github.com/antoineross/Autogen-UI/tree/main",
     "description": "Chainlit chat interface with multi-agent conversation between agents to complete a tasks",
     "image": "default.png",
     "tags": ["ui"]
@@ -214,14 +214,14 @@
     "tags": ["tools", "app"]
   },
   {
-    "title": "Create Issues from Code Commits - using Devgpt",
+    "title": "Create Issues from Code Commits - using Autogen",
     "link": "https://blog.composio.dev/automating-task-creation-with-openai-assistant-from-code-comments-to-linear-issues/",
     "description": "Automatically creating linear tasks and assigning them to the right person, project, and team from GitHub commits using DevGpt Agents.",
     "image": "composio-devgpt.png",
     "tags": ["tools"]
   },
   {
-    "title": "Agentok - Devgpt Visualized",
+    "title": "Agentok - Autogen Visualized",
     "link": "https://github.com/hughlv/agentok",
     "description": "Offering intuitive visual tools that streamline the creation and management of complex DevGpt workflows.",
     "image": "agentok.png",

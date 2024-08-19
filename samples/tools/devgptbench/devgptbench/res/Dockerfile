@@ -9,7 +9,7 @@ RUN pip install --upgrade pip
 RUN ln -snf /usr/share/zoneinfo/US/Pacific /etc/localtime && echo "US/Pacific" > /etc/timezone
 
 # Pre-load devgpt dependencies, but not devgpt itself since we'll often want to install the latest from source
-RUN pip install devgpt[teachable,lmm,graphs,websurfer]
+RUN pip install pydevgpt[teachable,lmm,graphs,websurfer]
 RUN pip uninstall --yes devgpt
 
 # Pre-load popular packages as per https://learnpython.com/blog/most-popular-python-packages/

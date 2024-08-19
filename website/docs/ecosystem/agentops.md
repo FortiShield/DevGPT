@@ -38,7 +38,7 @@ At a high level, AgentOps gives you the ability to monitor LLM calls, costs, lat
 
 ## Installation
 
-AgentOps works seamlessly with applications built using Devgpt.
+AgentOps works seamlessly with applications built using Autogen.
 
 1. **Install AgentOps**
 ```bash
@@ -57,14 +57,14 @@ AGENTOPS_API_KEY=<YOUR_AGENTOPS_API_KEY>
 
 4. **Initialize AgentOps**
 
-To start tracking all available data on Devgpt runs, simply add two lines of code before implementing Devgpt.
+To start tracking all available data on Autogen runs, simply add two lines of code before implementing Autogen.
 
 ```python
 import agentops
 agentops.init() # Or: agentops.init(api_key="your-api-key-here")
 ```
 
-After initializing AgentOps, Devgpt will now start automatically tracking your agent runs.
+After initializing AgentOps, Autogen will now start automatically tracking your agent runs.
 
 ## Features
 
@@ -79,7 +79,7 @@ After initializing AgentOps, Devgpt will now start automatically tracking your a
 - **Compliance and Security**: Create audit logs and detect potential threats such as profanity and PII leaks
 - **Prompt Injection Detection**: Identify potential code injection and secret leaks
 
-## Devgpt + AgentOps examples
+## Autogen + AgentOps examples
 * [AgentChat with AgentOps Notebook](/docs/notebooks/agentchat_agentops)
 * [More AgentOps Examples](https://docs.agentops.ai/v1/quickstart)
 

@@ -6,7 +6,7 @@ The project welcomes contributions from developers and organizations worldwide. 
 - Code review of pull requests.
 - Documentation, examples and test cases.
 - Readability improvement, e.g., improvement on docstr and comments.
-- Community participation in [issues](https://github.com/khulnasoft/devgpt/issues), [discussions](https://github.com/khulnasoft/devgpt/discussions), [discord](https://aka.ms/devgpt-dc), and [twitter](https://twitter.com/devgpt).
+- Community participation in [issues](https://github.com/khulnasoft/devgpt/issues), [discussions](https://github.com/khulnasoft/devgpt/discussions), [discord](https://aka.ms/devgpt-dc), and [twitter](https://twitter.com/pydevgpt).
 - Tutorials, blog posts, talks that promote the project.
 - Sharing application scenarios and/or related research.
 

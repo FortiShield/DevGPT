@@ -6,7 +6,7 @@ To use LLM caching with Redis, you need to install the Python package with
 the option `redis`:
 
 ```bash
-pip install "devgpt[redis]"
+pip install "pydevgpt[redis]"
 ```
 
 See [LLM Caching](Use-Cases/agent_chat.md#llm-caching) for details.
@@ -17,7 +17,7 @@ To use the IPython code executor, you need to install the `jupyter-client`
 and `ipykernel` packages:
 
 ```bash
-pip install "devgpt[ipython]"
+pip install "pydevgpt[ipython]"
 ```
 
 To use the IPython code executor:
@@ -30,10 +30,10 @@ proxy = UserProxyAgent(name="proxy", code_execution_config={"executor": "ipython
 
 ## blendsearch
 
-`devgpt<0.2` offers a cost-effective hyperparameter optimization technique [EcoOptiGen](https://arxiv.org/abs/2303.04673) for tuning Large Language Models. Please install with the [blendsearch] option to use it.
+`pydevgpt<0.2` offers a cost-effective hyperparameter optimization technique [EcoOptiGen](https://arxiv.org/abs/2303.04673) for tuning Large Language Models. Please install with the [blendsearch] option to use it.
 
 ```bash
-pip install "devgpt[blendsearch]<0.2"
+pip install "pydevgpt[blendsearch]<0.2"
 ```
 
 Example notebooks:
@@ -44,20 +44,20 @@ Example notebooks:
 
 ## retrievechat
 
-`devgpt` supports retrieval-augmented generation tasks such as question answering and code generation with RAG agents. Please install with the [retrievechat] option to use it with ChromaDB.
+`pydevgpt` supports retrieval-augmented generation tasks such as question answering and code generation with RAG agents. Please install with the [retrievechat] option to use it with ChromaDB.
 
 ```bash
-pip install "devgpt[retrievechat]"
+pip install "pydevgpt[retrievechat]"
 ```
 
-Alternatively `devgpt` also supports PGVector and Qdrant which can be installed in place of ChromaDB, or alongside it.
+Alternatively `pydevgpt` also supports PGVector and Qdrant which can be installed in place of ChromaDB, or alongside it.
 
 ```bash
-pip install "devgpt[retrievechat-pgvector]"
+pip install "pydevgpt[retrievechat-pgvector]"
 ```
 
 ```bash
-pip install "devgpt[retrievechat-qdrant]"
+pip install "pydevgpt[retrievechat-qdrant]"
 ```
 
 RetrieveChat can handle various types of documents. By default, it can process
@@ -82,7 +82,7 @@ Example notebooks:
 To use Teachability, please install DevGpt with the [teachable] option.
 
 ```bash
-pip install "devgpt[teachable]"
+pip install "pydevgpt[teachable]"
 ```
 
 Example notebook: [Chatting with a teachable agent](https://github.com/khulnasoft/devgpt/blob/main/notebook/agentchat_teachability.ipynb)
@@ -92,7 +92,7 @@ Example notebook: [Chatting with a teachable agent](https://github.com/khulnasof
 We offered Multimodal Conversable Agent and LLaVA Agent. Please install with the [lmm] option to use it.
 
 ```bash
-pip install "devgpt[lmm]"
+pip install "pydevgpt[lmm]"
 ```
 
 Example notebooks:
@@ -101,10 +101,10 @@ Example notebooks:
 
 ## mathchat
 
-`devgpt<0.2` offers an experimental agent for math problem solving. Please install with the [mathchat] option to use it.
+`pydevgpt<0.2` offers an experimental agent for math problem solving. Please install with the [mathchat] option to use it.
 
 ```bash
-pip install "devgpt[mathchat]<0.2"
+pip install "pydevgpt[mathchat]<0.2"
 ```
 
 Example notebooks:
@@ -116,7 +116,7 @@ Example notebooks:
 To use a graph in `GroupChat`, particularly for graph visualization, please install DevGpt with the [graph] option.
 
 ```bash
-pip install "devgpt[graph]"
+pip install "pydevgpt[graph]"
 ```
 
 Example notebook: [Finite State Machine graphs to set speaker transition constraints](https://khulnasoft.github.io/devgpt/docs/notebooks/agentchat_groupchat_finite_state_machine)
@@ -126,5 +126,5 @@ Example notebook: [Finite State Machine graphs to set speaker transition constra
 DevGpt includes support for handling long textual contexts by leveraging the LLMLingua library for text compression. To enable this functionality, please install DevGpt with the `[long-context]` option:
 
 ```bash
-pip install "devgpt[long-context]"
+pip install "pydevgpt[long-context]"
 ```

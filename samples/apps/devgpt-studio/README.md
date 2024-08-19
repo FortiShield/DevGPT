@@ -1,6 +1,6 @@
 # DevGpt Studio
 
-[![PyPI version](https://badge.fury.io/py/devgptstudio.svg)](https://badge.fury.io/py/devgptstudio)
+[![PyPI version](https://badge.fury.io/py/pydevgptstudio.svg)](https://badge.fury.io/py/pydevgptstudio)
 [![Downloads](https://static.pepy.tech/badge/devgptstudio/week)](https://pepy.tech/project/devgptstudio)
 
 ![ARA](./docs/ara_stockprices.png)
@@ -34,7 +34,7 @@ There are two ways to install DevGpt Studio - from PyPi or from source. We **rec
     We recommend using a virtual environment (e.g., conda) to avoid conflicts with existing Python packages. With Python 3.10 or newer active in your virtual environment, use pip to install DevGpt Studio:
 
     ```bash
-    pip install devgptstudio
+    pip install pydevgptstudio
     ```
 
 2.  **Install from Source**
