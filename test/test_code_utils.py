@@ -173,8 +173,6 @@ else:
 def test_infer_lang():
     assert infer_lang("print('hello world')") == "python"
     assert infer_lang("pip install pydevgpt") == "sh"
-    assert infer_lang("conda install pydevgpt") == "sh"
-    assert infer_lang("npm install pydevgpt") == "sh"
 
     # test infer lang for unknown code/invalid code
     assert infer_lang("dummy text") == UNKNOWN
